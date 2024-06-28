@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: aqua;
+  margin-bottom: 10px;
+  font-weight: 1000;
+}
+p{
+  color: rgb(233, 169, 19);
+  margin-top: 0px;
+  font-size: 2.0em;
+}
+.status {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #45f745;
+  font-size: 2em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.status:hover{
+  background-color: rgb(147, 235, 142);
+  border-radius: 50px;
+  color: red;
+  
+}
+
+.restart-button {
+  padding: 0px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: blue;
+  color: yellow;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 35px;
+  width: 165px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.restart-button:hover {
+  background-color: #0056b3;
+}
+
